@@ -1,0 +1,79 @@
+AO INSTALAR O GIT, ESCOLHER OPÇÕES MAIN...
+
+++++++++++++++++++++++++++++++++++
+GIT: REPOSITÓRIO E ARQUIVO DO ZERO
+++++++++++++++++++++++++++++++++++
+
+1 ENTRAR EM DESKTOP: 
+
+cd desktop
+
+2 CRIAR UMA PASTA QUE SERÁ O REPOSITÓRIO: 
+
+mkdir projeto
+
+3 ENTRAR NESSA PASTA REPOSITÓRIO E INSTALAR O GIT: 
+
+git init
+
+4 CONFIRA O ARQUIVO .git NA PASTA: 
+
+ls -h
+
+5 USAR UMA IDE E CRIAR UM CÓDIGO NA PASTA
+
+6 VERIFICAR O STATUS ATUAL: 
+
+git status
+
+(Ele vai dizer que você está no branch master, que precisa rastrear o arquivo e que não há um commit.)
+
+
+7 RASTREAR O ARQUIVO:
+
+git add .\example.py
+
+8 DEPOIS DISSO, POSSO FAZER O COMMIT: 
+
+git commit -m "Adding file"
+
+Uma mensagem pra dizer o que eu estava fazendo no momento
+
+9 SE FOR A PRIMEIRA VEZ NUM COMMIT:
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+10 ENVIAR O COMMIT AO REPOSITÓRIO REMOTO:
+
+git remote add origin https://github.com/udanielnogueira/Python101.git
+
+11 DAR O PUSH:
+
+git push -u origin master
+
+(Origin é o local para onde eu estou mandando.)
+
+12 CRIANDO BRANCH MAIN E MUDANDO PRA MAIN
+
+git branch main
+git checkout main
+
+Caso for criar um pull request, criar uma branch com seu nome antes
+
+++++++++++++++++++++++++++++++++++++++++++++
+GIT: REPOSITÓRIO JÁ CRIADO NO GITHUB DESKTOP
+++++++++++++++++++++++++++++++++++++++++++++
+
+ENTRAR NA PASTA (REPOSITÓRIO) 
+
+git pull
+
+git status
+
+git add . OU git add file.py
+
+git commit -m "Update file"
+
+git push
+
