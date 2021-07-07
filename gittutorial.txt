@@ -28,7 +28,6 @@ git status
 
 (Ele vai dizer que você está no branch master, que precisa rastrear o arquivo e que não há um commit.)
 
-
 7 RASTREAR O ARQUIVO:
 
 git add .\example.py
