@@ -97,6 +97,7 @@ git remote add origin http://github.com/udanielnogueira/PastaDoProjeto.git
 CRIAR ESSE REPOSITÓRIO VAZIO NO GITHUB (WEB OU DESKTOP) 
 
 git push -u origin main 
+(QUANDO FEITO UMA VEZ, git push SOMENTE)
 
 PRONTO!
 
