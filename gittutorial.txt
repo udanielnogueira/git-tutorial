@@ -80,21 +80,21 @@ git push
 GIT: LINHA DE CRIAÇÃO ALTERNATIVA
 +++++++++++++++++++++++++++++++++
 
-entrar na pasta do GitHub
+ENTRAR NA PASTA GITHUB COM CD
 
 mkdir PastaDoProjeto
 
-Abrir a pasta no VSCode
+ABRIR A PASTA NO VSCODE
 
-Criar um Readme.md no VSCode
+CRIAR UM README.md no VSCODE
 
-git add Readme.md 
+git add README.md
 
-git commit -m "Criando commit."
+git commit -m "Create files"
 
 git remote add origin http://github.com/udanielnogueira/PastaDoProjeto.git
 
-CRIE ESSE REPOSITÓRIO VAZIO NO GITHUB (WEB OU DESKTOP) 
+CRIAR ESSE REPOSITÓRIO VAZIO NO GITHUB (WEB OU DESKTOP) 
 
 git push -u origin main 
 
