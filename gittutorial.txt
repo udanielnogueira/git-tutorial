@@ -77,3 +77,32 @@ git commit -m "Update file"
 
 git push
 
++++++++++++++++++++++++++++++++++
+GIT: LINHA DE CRIAÇÃO ALTERNATIVA
++++++++++++++++++++++++++++++++++
+
+entrar na pasta do GitHub
+
+mkdir PastaDoProjeto
+
+Abrir a pasta no VSCode
+
+Criar um Readme.md no VSCode
+
+git add Readme.md 
+
+git commit -m "Criando commit."
+
+git remote add origin http://github.com/udanielnogueira/PastaDoProjeto
+
+git push -u origin main 
+
+CASO DE FATAL ERROR NO HTTP, RESETA A URL DESSA FORMA
+git remote set-url origin https://github.com/udanielnogueira/PastaDoProjeto
+
+
+
+
+
+
+
