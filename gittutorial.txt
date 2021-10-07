@@ -98,8 +98,6 @@ GIT: Linha de criação alternativa
 
 9 git push -u origin main (Quando feito uma vez, GIT PUSH somente)
 
-
-
 Em caso de Fatal Error no HTTP, resete a url dessa forma:
 
 git remote set-url origin https://github.com/udanielnogueira/PastaDoProjeto.git
