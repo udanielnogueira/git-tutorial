@@ -1,106 +1,106 @@
 AO INSTALAR O GIT, ESCOLHER OPÇÕES MAIN...
 
 ++++++++++++++++++++++++++++++++++
-GIT: REPOSITÓRIO E ARQUIVO DO ZERO
+GIT: Repositório e arquivo do zero
 ++++++++++++++++++++++++++++++++++
 
-1 ENTRAR EM DESKTOP: 
+1 Entrar em Desktop: 
 
 cd desktop
 
-2 CRIAR UMA PASTA QUE SERÁ O REPOSITÓRIO: 
+2 Criar uma pasta que será o repositório: 
 
 mkdir projeto
 
-3 ENTRAR NESSA PASTA REPOSITÓRIO E INSTALAR O GIT: 
+3 Entrar nessa pasta repositório e instalar o git: 
 
 git init
 
-4 CONFIRA O ARQUIVO .git NA PASTA: 
+4 Confira o arquivo .git na pasta: 
 
 ls -h
 
-5 USAR UMA IDE E CRIAR UM CÓDIGO NA PASTA
+5 Usar uma IDE e criar um código na pasta
 
-6 VERIFICAR O STATUS ATUAL: 
+6 Verificar o status atual: 
 
 git status
 
-(Ele vai dizer que você está no branch master, que precisa rastrear o arquivo e que não há um commit.)
+(Ele vai dizer que você está no branch Master, que precisa rastrear o arquivo e que não há um commit.)
 
-7 RASTREAR O ARQUIVO:
+7 Rastrear o arquivo:
 
 git add .\example.py
 
-8 DEPOIS DISSO, POSSO FAZER O COMMIT: 
+8 Depois disso, posso fazer o commit: 
 
 git commit -m "Adding file"
 
-Uma mensagem pra dizer o que eu estava fazendo no momento
+(Uma mensagem pra dizer o que eu estava fazendo no momento.)
 
-9 SE FOR A PRIMEIRA VEZ NUM COMMIT:
+9 Se for a primeira vez no commit:
 
 git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+git config --global user.name "your name"
 
-10 ENVIAR O COMMIT AO REPOSITÓRIO REMOTO:
+10 Eviar o commit ao repositórioremoto:
 
 git remote add origin https://github.com/udanielnogueira/Python101.git
 
-11 DAR O PUSH:
+11 Dar o push:
 
 git push -u origin master
 
 (Origin é o local para onde eu estou mandando.)
 
-12 CRIANDO BRANCH MAIN E MUDANDO PRA MAIN
+12 Criando branch main e mudando para a main:
 
 git branch main
 git checkout main
 
-Caso for criar um pull request, criar uma branch com seu nome antes
+(Caso for criar um pull request, criar uma branch com seu nome antes.)
 
 ++++++++++++++++++++++++++++++++++++++++++++
-GIT: REPOSITÓRIO JÁ CRIADO NO GITHUB DESKTOP
+GIT: Repositório já criado no GitHub Desktop
 ++++++++++++++++++++++++++++++++++++++++++++
 
-ENTRAR NA PASTA (REPOSITÓRIO) 
+1 Entre na pasta (do repositório)
 
-git pull
+2 git pull
 
-git status
+3 git status
 
-git add . OU git add file.py
+4 git add . OU git add file.py
 
-git commit -m "Update file"
+5 git commit -m "Update file"
 
-git push
+6 git push
 
 +++++++++++++++++++++++++++++++++
-GIT: LINHA DE CRIAÇÃO ALTERNATIVA
+GIT: Linha de criação alternativa
 +++++++++++++++++++++++++++++++++
 
-ENTRAR NA PASTA GITHUB COM CD
+1 Entrar na pasta GitHub com cd
 
-mkdir PastaDoProjeto
+2 mkdir PastaDoProjeto
 
-ABRIR A PASTA NO VSCODE
+3 Abrir a pasta no VS Code
 
-CRIAR UM README.md no VSCODE
+4 Criar um README.md no VS Code
 
-git add README.md
+5 git add README.md
 
-git commit -m "Create files"
+6 git commit -m "Create files"
 
-git remote add origin http://github.com/udanielnogueira/PastaDoProjeto.git
+7 git remote add origin http://github.com/udanielnogueira/PastaDoProjeto.git
 
-CRIAR ESSE REPOSITÓRIO VAZIO NO GITHUB (WEB OU DESKTOP) 
+8 Criar esse repositório vazio no GitHub (Web OU Desktop) 
 
-git push -u origin main 
-(QUANDO FEITO UMA VEZ, git push SOMENTE)
+9 git push -u origin main (Quando feito uma vez, GIT PUSH somente)
 
-PRONTO!
 
-CASO DE FATAL ERROR NO HTTP, RESETE A URL DESSA FORMA
+
+Em caso de Fatal Error no HTTP, resete a url dessa forma:
+
 git remote set-url origin https://github.com/udanielnogueira/PastaDoProjeto.git
 
