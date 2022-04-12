@@ -2,8 +2,7 @@
 
 Ao instalar o Git, escolher as opções main.
 
-### GIT: Repositório e arquivo do zero
-
+## Git: Repositório e arquivo do zero
 
 1. Entrar em Desktop: 
 
@@ -65,9 +64,7 @@ git checkout main
 
 (Caso for criar um pull request, criar uma branch com seu nome antes.)
 
-
-### GIT: Repositório já criado no GitHub Desktop
-
+## Git: Repositório já criado no GitHub Desktop
 
 1. Entre na pasta (do repositório)
 
@@ -81,9 +78,7 @@ git checkout main
 
 6. `git push`
 
-
-### GIT: Linha de criação alternativa
-
+## Git: Linha de criação alternativa
 
 1. Entrar na pasta GitHub com cd
 
@@ -106,4 +101,3 @@ git checkout main
 Em caso de Fatal Error no HTTP, resete a url dessa forma:
 
 `git remote set-url origin https://github.com/udanielnogueira/PastaDoProjeto.git`
-
