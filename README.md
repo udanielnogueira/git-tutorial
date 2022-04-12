@@ -2,7 +2,7 @@
 
 Ao instalar o Git, escolher as opções main.
 
-## Git: Repositório e arquivo do zero
+## Repositório e arquivo do zero
 
 1. Entrar em Desktop: 
 
@@ -64,7 +64,7 @@ git checkout main
 
 (Caso for criar um pull request, criar uma branch com seu nome antes.)
 
-## Git: Repositório já criado no GitHub Desktop
+## Repositório já criado no GitHub Desktop
 
 1. Entre na pasta (do repositório)
 
@@ -78,7 +78,7 @@ git checkout main
 
 6. `git push`
 
-## Git: Linha de criação alternativa
+## Linha de criação alternativa
 
 1. Entrar na pasta GitHub com cd
 
