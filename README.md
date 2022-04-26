@@ -89,23 +89,23 @@ git add README.md
 git status
 ~~~
 
-6. Fazer commit
+7. Fazer commit
 
 ~~~powershell
 git commit -m "Create file"
 ~~~
 
-7. Adicionar endereço remoto
+8. Adicionar endereço remoto
 
 ~~~powershell
 git remote add origin https://github.com/username/repositorio.git
 ~~~
 
-8. Criar repositório vazio no GitHub (Web ou Desktop) 
+9. Criar repositório vazio no GitHub (Web ou Desktop) 
 
 Atenção: use o mesmo nome do repositório criado localmente.
 
-9. Fazer push
+10. Fazer push
 
 ~~~
 git push -u origin main 
