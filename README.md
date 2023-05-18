@@ -69,13 +69,13 @@ cd caminhoGitHub
 mkdir repositorio
 ~~~
 
-3. Configurar repositorio 
+3. Acessar pasta do repositório na IDE
+
+4. Configurar repositorio 
 
 ~~~powershell
 git init
 ~~~
-
-4. Acessar pasta do repositório na IDE
 
 5. Criar README.md dentro da pasta do repositório
 
