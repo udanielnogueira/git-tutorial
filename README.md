@@ -136,8 +136,8 @@ git push
 Criando branch main e mudando para a main:
 
 ~~~powershell
-git branch main
-git checkout main
+git branch teste
+git checkout teste
 ~~~
 
 Caso for criar um pull request, criar uma branch com seu nome antes.
