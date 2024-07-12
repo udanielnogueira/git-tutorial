@@ -1,4 +1,4 @@
-# GitTutorial
+# git-tutorial
 
 Sincronizando e fazendo push de arquivos locais para a nuvem.
 
