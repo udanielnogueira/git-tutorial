@@ -1,6 +1,6 @@
 # git-tutorial
 
-Sincronizando e fazendo push de arquivos locais para a nuvem.
+Primeiros passos usando o Git.
 
 ## Configuração
 
