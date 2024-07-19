@@ -2,16 +2,20 @@
 
 Primeiros passos usando o Git.
 
-## Configuração
+## Versão
 
-Se for a primeira vez usando o git no terminal:
+~~~powershell
+git -v
+~~~
+
+## Configuração
 
 ~~~powershell
 git config --global user.email "you@example.com"
 git config --global user.name "your name"
 ~~~
 
-## Repositório já publicado no GitHub (Web ou Desktop)
+## Exemplo de jornada com repositório já criado no GitHub
 
 1. Entrar na pasta local do Github
 
@@ -55,9 +59,9 @@ commit -m "Update file"
 git push
 ~~~
 
-## Repositório ainda não criado
+## Exemplo de jornada com repositório ainda não criado no GitHub
 
-1. Entrar na pasta GitHub 
+1. Entrar na pasta local do GitHub 
 
 ~~~powershell
 cd caminhoGitHub
@@ -69,59 +73,91 @@ cd caminhoGitHub
 mkdir repositorio
 ~~~
 
-3. Acessar pasta do repositório na IDE
+3. Entrar na pasta do repositório
 
-4. Configurar repositorio 
+~~~powershell
+cd nomeRepositorio
+~~~
+
+4. Configurar repositório 
 
 ~~~powershell
 git init
 ~~~
 
-5. Criar README.md dentro da pasta do repositório
-
-~~~powershell
-git add README.md
-~~~
-
-6. Verificar status
+5. Verificar status
 
 ~~~powershell
 git status
 ~~~
 
-7. Fazer commit
+6. Criar README.md via prompt
+
+~~~powershell
+echo "# My README" > README.md
+~~~
+
+7. Verificar status
+
+~~~powershell
+git status
+~~~
+
+8. Adicionar o arquivo ao Git
+
+~~~powershell
+git add README.md
+~~~
+
+9. Verificar status
+
+~~~powershell
+git status
+~~~
+
+10. Fazer commit
 
 ~~~powershell
 git commit -m "Create file"
 ~~~
 
-8. Adicionar endereço remoto
+11. Verificar log
+
+~~~powershell
+git log
+~~~
+
+12. Verificar status
+
+~~~powershell
+git status
+~~~
+
+13. Adicionar endereço remoto
 
 ~~~powershell
 git remote add origin https://github.com/username/repositorio.git
 ~~~
 
-9. Criar repositório vazio no GitHub (Web ou Desktop) 
+14. Criar repositório remoto vazio no GitHub 
 
-Atenção: use o mesmo nome do repositório criado localmente.
+Use o mesmo nome do repositório criado localmente.
 
-10. Fazer push
+15. Fazer push
 
 ~~~
 git push -u origin main 
 ~~~
 
-Quando feito a primeira vez, após isso ``git push`` somente.
-
-**Em caso de Fatal Error no HTTP, resete a url dessa forma:**
+Esse push mais completo é ideal para quando for feito pela primeira vez, após isso ``git push`` somente. E em caso de Fatal Error no HTTP, resete a url dessa forma:
 
 ~~~powershell
-git remote set-url origin https://github.com/udanielnogueira/PastaDoProjeto.git`
+git remote set-url origin https://github.com/udanielnogueira/PastaDoProjeto.git
 ~~~
 
 ## Próximos passos
 
-Após a sincronização com a nuvem, basta executar os comandos de adição, commit e push.
+Após a sincronização com a nuvem, basta executar os comandos de adição, commit e push. E caso for criar um pull request, criar uma branch com seu nome antes.
 
 ~~~powershell
 git add .
@@ -131,13 +167,44 @@ git commit -m "Update file"
 git push
 ~~~
 
-## Extra
+## Outros comandos
 
-Criando branch main e mudando para a main:
+Criar nova branch
+
+~~~~powershell
+git branc novaBranch
+~~~~
+
+Mudar para outra branch
+
+~~~~powershell
+git checkout outraBranch
+~~~~
+
+Apagar mudanças e voltar ao estado anterior
+
+~~~~powershell
+git reset --hard
+~~~~
+
+Acessar help de um comando
+
+~~~~powershell
+git comando --help
+
+# Exemplo
+git merge --help
+~~~~
+
+Ver mudanças feitas em um commit específico
 
 ~~~powershell
-git branch teste
-git checkout teste
+git show hashNumber
 ~~~
 
-Caso for criar um pull request, criar uma branch com seu nome antes.
+Fazer merge de uma novaBranh com a branch main
+
+~~~~powershell
+git checkout main
+git merge novaBranch
+~~~~
